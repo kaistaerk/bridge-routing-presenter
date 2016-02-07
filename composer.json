@@ -1,0 +1,25 @@
+{
+  "name" : "nia/bridge-routing-presenter",
+  "description" : "This component is a bridge to use a `Nia\\Presenter\\PresenterInterface` as a handler for the routing compoonent.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "nia/presenter" : "*",
+    "nia/routing" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "request", "response", "routing", "router", "filter", "presenter", "bridge" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Routing\\Handler\\" : "sources/",
+      "Test\\Nia\\Routing\\Handler\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
