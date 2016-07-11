@@ -1,6 +1,6 @@
 # nia - Bridge Component For Presenter And Routing
 
-This component is a bridge to use a `Nia\Presenter\PresenterInterface` as a handler for the routing compoonent. It provides a handler implementation which requires a presenter implementation and a presenter action.
+This component is a bridge to use a `Nia\Presenter\PresenterInterface` as a handler for the routing component. It provides a handler implementation which requires a presenter implementation and a presenter action.
 
 ## Installation
 
